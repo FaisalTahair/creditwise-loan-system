@@ -1,39 +1,47 @@
 # CreditWise Loan Approval System
 
-## 📌 Problem Statement
-SecureTrust Bank wants to automate its loan approval process using Machine Learning to reduce manual errors, bias, and financial losses.
+## 1. Problem Statement
 
-The goal is to predict whether a loan application should be Approved or Rejected based on applicant details.
+SecureTrust Bank aims to automate its loan approval process using Machine Learning to reduce manual errors, bias, and financial risk.
 
----
-
-## 🚀 Project Overview
-This project builds a Machine Learning classification model that analyzes applicant features such as income, employment, and credit history to predict loan approval status.
+The objective is to build a classification model that predicts whether a loan application should be Approved or Rejected based on applicant attributes.
 
 ---
 
-## 🛠Tech Stack
+## 2. Project Overview
+
+This project implements an end-to-end Machine Learning workflow including:
+
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature engineering
+- Model training
+- Model evaluation
+
+---
+
+## 3. Tech Stack
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Scikit-learn
-## 📂 Project Structure
+
+---
+
+## 4. Project Structure
+
 creditwise-loan-system/
 │
-├── notebook/
+├── notebooks/
 │ └── creditwise_model.ipynb
-├── data/ # Dataset (not uploaded)
+├── data/ # Dataset not included
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-## 📊 Machine Learning Workflow
-1. Data Cleaning
-2. Exploratory Data Analysis (EDA)
-3. Feature Engineering
-4. Model Training
-5. Model Evaluation
 
-## ⚠️ Note
-Dataset is not included in this repository as per best practices.
+## 5. Note
+
+The dataset is excluded from the repository in accordance with best practices.
